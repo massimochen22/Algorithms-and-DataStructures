@@ -9,8 +9,7 @@ public class BusyActress {
   public static void main(String[] args) throws Exception {
     ArrayList<ActorRecord> act = new ArrayList<ActorRecord>();
 
-    //String fname = "actresses.list.gz";
-    String fname = "actors.list.gz";
+    String fname = "actresses.list.gz";
     RetrieveActors ra = new RetrieveActors(fname);
 
     String content;
